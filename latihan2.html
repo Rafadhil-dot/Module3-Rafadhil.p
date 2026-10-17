@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Digital Responsive - Rafadhil Putra Pratama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page-wrapper">
+        <article class="profile-card">
+            <header class="card-aside">
+                <button id="btnToggleTema" class="btn-tema">
+                    🔆 Ganti Mode
+                </button>
+                <div class="avatar-box">
+                    <span class="avatar-icon">
+                        <img src="meng ke'er.jpg" class="avatar-image" alt="Avatar">
+                    </span>
+                </div>
+                <h1 class="student-name">Rafadhil Putra Pratama</h1>
+                <p class="student-role">Junior Web Developer</p>
+                <p class="student-school">SMKN TAKERAN - X RPL 2</p>
+                <a href="#" id="btnKontak" class="btn-contact">Kirim pesan</a>
+            </header>
+            <section class="card-content">
+                <div class="bio-section">
+                    <h2 class="section-heading">Tentang Saya</h2>
+                    <p class="bio-text">
+                        Siswa kelas 10 Rekayasa Perangkat Lunak yang berfokus mendalami arsitektur Front-End modern, tata letak CSS Flexbox, serta prinsip Mobile-First Responsive Design standar industri.
+                    </p>
+                </div>
+                 <h2 class="section-heading">KEAHLIAN DAN KOMPETENSI</h2>
+                <div class="skill-matrix">
+                  <button class="skill-badge" data-title="HTML Semantic" data-info="Penggunaan tag HTML sesuai dengan fungsi dan maknanya untuk meningkatkan struktur dokumen dan SEO.">HTML Semantic</button>
+                  <button class="skill-badge" data-title="CSS Flexbox" data-info="Modul tata letak CSS3 untuk mengatur posisi dan perataan elemen secara fleksibel dan responsif.">CSS Flexbox</button>
+                  <button class="skill-badge" data-title="Responsive Design" data-info="Teknik pembuatan tampilan web yang dapat menyesuaikan dengan berbagai ukuran layar perangkat secara otomatis.">Responsive Design</button>
+                  <button class="skill-badge" data-title="Media Queries" data-info="Fitur CSS untuk menerapkan style khusus berdasarkan karakteristik perangkat seperti lebar layar.">Media Queries</button>
+                  <button class="skill-badge" data-title="Chrome DevTools" data-info="Alat pengembang bawaan browser Chrome untuk mendebug HTML, CSS, dan JavaScript secara langsung.">Chrome DevTools</button>
+                  <button class="skill-badge" data-title="Git & GitHub" data-info="Sistem kontrol versi untuk mengelola riwayat perubahan kode program dan kolaborasi tim.">Git & GitHub (Next)</button>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <div id="modalKontak" class="modal-overlay">
+        <div class="modal-box">
+            <h2>Kirim Pesan</h2>
+            <p>Silahkan hubungi saya melalui email: raffakarmini@gmail.com</p>
+            <button id="btnTutupModal" class="btn-tutup">Tutup</button>
+        </div>
+    </div>
+    <div id="modalSkill" class="modal-overlay">
+  <div class="modal-box">
+    <h2 id="modalSkillTitle">Detail Keahlian</h2>
+    <p id="modalSkillInfo" style="margin-top: 12px; line-height: 1.6; color: #cbd5e1;"></p>
+    <button id="btnTutupModalSkill" class="btn-tutup">Tutup</button>
+  </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
